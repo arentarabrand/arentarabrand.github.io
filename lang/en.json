@@ -1,0 +1,29 @@
+{
+  "menu_home": "Home",
+  "menu_about": "About",
+  "menu_products": "Products",
+  "menu_contact": "Contact",
+  
+  "hero_title": "Nature’s Legacy in Every Drop",
+  "hero_subtitle": "Pure organic palm sugar from the southern heartland of Indonesia",
+  "hero_button": "See Our Products",
+
+  "about_title": "About Arentara",
+  "about_desc": "Arentara is more than just palm sugar. It’s a commitment to nature, culture, and purity. Sourced from the lush palm forests of South Cianjur, every product tells a story of heritage and sustainability.",
+  "about_mission_title": "Our Mission",
+  "about_mission_text": "To bring the world closer to nature by providing premium, organic palm sugar while empowering local communities.",
+  "about_vision_title": "Our Vision",
+  "about_vision_text": "To be the global icon of authentic Indonesian palm products through innovation, integrity, and sustainability.",
+
+  "products_title": "Our Products",
+  "products_desc": "Discover our range of premium organic palm sugar products crafted from nature’s best.",
+
+  "contact_title": "Contact Us",
+  "contact_info_title": "Reach Us",
+  "contact_name": "Name",
+  "contact_email": "Email",
+  "contact_message": "Message",
+  "contact_send": "Send",
+
+  "footer_rights": "All rights reserved."
+}
