@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – Arentara</title>
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+  <link rel="stylesheet" href="../assets/css/animations.css"/>
+</head>
+<body>
+  <div id="header"></div>
+
+  <main class="contact-page">
+    <section class="section fade-in-up">
+      <div class="container">
+        <h1 data-lang="contact_title">Contact Us</h1>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3 data-lang="contact_info_title">Reach Us</h3>
+            <p><strong>Email:</strong> hello@arentara.com</p>
+            <p><strong>Phone:</strong> +62 812-3456-7890</p>
+            <p><strong>Location:</strong> Cianjur Selatan, Indonesia</p>
+          </div>
+
+          <div class="contact-form">
+            <form id="form-contact">
+              <label data-lang="contact_name">Name</label>
+              <input type="text" name="name" required />
+
+              <label data-lang="contact_email">Email</label>
+              <input type="email" name="email" required />
+
+              <label data-lang="contact_message">Message</label>
+              <textarea name="message" rows="5" required></textarea>
+
+              <button type="submit" class="btn-primary" data-lang="contact_send">Send</button>
+            </form>
+            <div id="form-result"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="../assets/js/main.js"></script>
+  <script>
+    // Simulasi kirim form (bisa diganti pake EmailJS, Formspree, atau backend nanti)
+    document.getElementById('form-contact').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('form-result').innerText = '✅ Message sent! We’ll get back to you soon.';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
